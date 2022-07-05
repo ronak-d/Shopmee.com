@@ -6,9 +6,10 @@ export const AllRoutes = () => {
     <Routes>
       <Route path='/' element={<Homepage/>}/>
       <Route path='/women' element={<Womenpage/>}/>
-      <Route path='/kids' element={<Kids/>}/>
-      <Route path='/mens' element={<Mens/>}/>
-      <Route path='/shoes' element={<Shoes/>}/>
+      <Route path='/kids' element={<Kidspage/>}/>
+      <Route path='/mens' element={<Menspage/>}/>
+      <Route path='/shoes' element={<Shoespage/>}/>
+      <Route path='/cart' element={<Cartpage/>}/>
     </Routes>
   )
 }
