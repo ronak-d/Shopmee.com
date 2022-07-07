@@ -1,0 +1,7 @@
+
+
+    const fecthDataRequest = (payload) =>{
+        return {
+            
+        }
+    }
