@@ -26,8 +26,10 @@ import * as types from './actionTypes';
 
             dispatch(fetchDataRequest());
             
-            axios.get("./products")
+            Axios.get("./products")
             .then((response) => dispatch(fetchDataSuccess(response.data)))
-            .catch((error) => dispatch(fetchDatafailure(err.data)))
+            .catch((error) => dispatch(fetchDatafailure(error.data)))
         };
     }
+
+    export {fetchdata};
