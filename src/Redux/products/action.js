@@ -1,4 +1,4 @@
-import axios, { Axios } from 'axios';
+import  Axios  from 'axios';
 import * as types from './actionTypes';
 
     const fetchDataRequest = (payload) =>{
