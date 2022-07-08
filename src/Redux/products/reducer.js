@@ -2,7 +2,8 @@ import * as types from './actionTypes';
 
 const initState = {
     products:[],
-    error: ''
+    error: '',
+    loading: false
 };
 
 const reducer = (state = initState, action) => {
@@ -12,23 +13,29 @@ const reducer = (state = initState, action) => {
         case types.FETCH_DATA_REQUEST:
         return{
             ...state,
-            error:''
+            error:'',
+            loading: true
+            
         }
         
        case types.FETCH_DATA_SUCCESS:
         return{
             ...state,
             products: payload,
-            error:''
+            error:'',
+            loading: false
         }
 
         case types.FETCH_DATA_FAILURE:
         return{
             ...state,
-            error:''
+            error:'',
+            loading: false
         }
 
         default:
         return state;
     }
 }
+
+export default reducer;
