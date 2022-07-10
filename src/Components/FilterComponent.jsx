@@ -16,7 +16,7 @@ export const FilterComponent = () => {
         <Text>Filters</Text>
         <Text>Cateogary</Text>
 
-        <CheckboxGroup colorScheme='green' defaultValue={['naruto', 'kakashi']} onChange={categoryHandler}>
+        <CheckboxGroup colorScheme='green' defaultValue={categoryValue} onChange={categoryHandler}>
           <VStack>
             <Checkbox value='naruto'>Naruto</Checkbox>
             <Checkbox value='sasuke'>Sasuke</Checkbox>
