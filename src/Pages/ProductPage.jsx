@@ -20,7 +20,7 @@ export const ProductPage = () => {
             <FilterComponent/>
         </Box>
         <Box>
-
+            {/* products */}
         </Box>
     </Box>
   )

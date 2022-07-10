@@ -1,7 +1,15 @@
 import React from 'react'
+import {Box} from '@chakra-ui/react';
 
 export const FilterComponent = () => {
   return (
-    <div>FilterComponent</div>
+    <Box>
+      <Box>
+        <Text>Filters</Text>
+        <Text>Cateogary</Text>
+        <Text></Text>
+
+      </Box>
+    </Box>
   )
 }
