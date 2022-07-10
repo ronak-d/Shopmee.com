@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Box, VStack} from '@chakra-ui/react';
 
 export const FilterComponent = () => {
+
+  const [categoryValue, setcategoryValue] = useState([]);
+
+  const categoryHandler=(value)=>{
+    console.log(value);
+    setcategoryValue(value);
+  }
+
   return (
     <Box>
       <Box>
