@@ -12,12 +12,12 @@ export const FilterComponent = () => {
 
   return (
     <Box>
-      <Box>
+      <Box display={{base:'none', md:'block'}} p="1rem 2rem">
         <Text>Filters</Text>
         <Text>Cateogary</Text>
 
         <CheckboxGroup colorScheme='green' defaultValue={categoryValue} onChange={categoryHandler}>
-          <VStack>
+          <VStack align>
             <Checkbox value="men's clothing">Men's clothing</Checkbox>
             <Checkbox value="women's clothing">Women's clothing</Checkbox>
             <Checkbox value="kid's clothing">Kid's clothing</Checkbox>
