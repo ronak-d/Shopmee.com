@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import {Box} from "@chakra-ui/react";
+import {Box, Stack} from "@chakra-ui/react";
 import { FilterComponent } from '../Components/FilterComponent';
 import { fetchdata } from '../Redux/products/action';
 
@@ -16,6 +16,9 @@ export const ProductPage = () => {
 
   return (
     <Box>
+      <Stack display={{md:"flex"}} flexDirection={{md:"row"}}>
+
+      </Stack>
         <Box>
             <FilterComponent/>
         </Box>
