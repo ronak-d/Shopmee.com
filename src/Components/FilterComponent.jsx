@@ -17,7 +17,7 @@ export const FilterComponent = () => {
         <Text>Cateogary</Text>
 
         <CheckboxGroup colorScheme='green' defaultValue={categoryValue} onChange={categoryHandler}>
-          <VStack align>
+          <VStack alignItems={"baseline"}>
             <Checkbox value="men's clothing">Men's clothing</Checkbox>
             <Checkbox value="women's clothing">Women's clothing</Checkbox>
             <Checkbox value="kid's clothing">Kid's clothing</Checkbox>
