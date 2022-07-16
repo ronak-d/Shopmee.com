@@ -5,4 +5,4 @@
 - Includes Products pages as well as main product page which has all the products at the same place.
 - Sorting and Filtering made as a part of functionality.
 - Redux used for dispatching an action for adding To Cart.
-- Made products pages just by using Dynamic Axios using GET request 
+- Made products pages just by using Dynamic Axios using GET requests.
