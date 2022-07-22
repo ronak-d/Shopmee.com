@@ -6,4 +6,4 @@
 - Sorting and Filtering made as a part of functionality.
 - Redux used for dispatching an action for adding To Cart.
 - Made products pages just by using Dynamic Axios using GET requests.
-- Pages made by taking glimpses 
+- Pages made by taking glimpses of 
